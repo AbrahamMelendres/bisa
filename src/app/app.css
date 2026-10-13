@@ -1,0 +1,55 @@
+/* Barra de navegación principal */
+.navbar {
+  background-color: #03328e;
+  padding: 0.5rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  height: 70px;
+}
+
+.navbar-logo a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo-img {
+  height: 55px;
+  width: auto;
+  border-radius: 4px;
+  object-fit: contain;
+}
+
+.navbar-opciones {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navbar-opciones a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+.navbar-opciones a:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.navbar-opciones a.activo {
+  color: #03328e;
+  background-color: #f7ca16;
+  font-weight: 700;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.contenedor-principal {
+  padding: 2rem 1.5rem;
+}
